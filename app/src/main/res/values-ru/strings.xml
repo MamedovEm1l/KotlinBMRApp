@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMR</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="cancel">Отмена</string>
+    <string name="your_BMR">Ваш BMR</string>
+    <string name="daily_cal">Ежедневно тратится калорий:</string>
+    <string name="sit_lifestyle">Сидячий образ:</string>
+    <string name="min_activity">Маленькая активность:</string>
+    <string name="avg_activity">Средняя активность:</string>
+    <string name="str_activity">Сильная активность:</string>
+    <string name="max_activity">Максимальная активность:</string>
+    <string name="growth">Рост (см.)</string>
+    <string name="weight">Вес (кг.)</string>
+    <string name="age">Возраст (лет)</string>
+    <string name="choose_your_gender">Выберите ваш гендер</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="height_mistake">Пожалуйста, введите ваш рост</string>
+    <string name="weight_mistake">Пожалуйста, введите ваш вес</string>
+    <string name="age_error">Пожалуйста, введите ваш возраст</string>
+    <string name="int_format_error">Неверный формат. Введите целое число.</string>
+    <string name="height_range_error">Рост должен быть в диапазоне от 50 до 300 см.</string>
+    <string name="weight_range_error">Вес должен быть в диапазоне от 10 до 500 кг.</string>
+    <string name="age_range_error">Возраст должен быть в диапазоне от 1 до 150 лет.</string>
+    <string name="format_error">Неверный формат данных</string>
+    <string name="сonfirmation">Подтверждение</string>
+    <string name="sure">Вы уверены, что хотите отменить ввод?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BMR</string>
+    <string name="calculate">Calculate</string>
+    <string name="cancel">Cancel</string>
+    <string name="your_BMR">Your BMR</string>
+    <string name="daily_cal">Daily calories expended:</string>
+    <string name="sit_lifestyle">Sedentary lifestyle:</string>
+    <string name="min_activity">Little activity:</string>
+    <string name="avg_activity">Average activity:</string>
+    <string name="str_activity">Strong activity:</string>
+    <string name="max_activity">Max activity:</string>
+    <string name="growth">Growth (cm.)</string>
+    <string name="weight">Weight (kg.)</string>
+    <string name="age">Age (years)</string>
+    <string name="choose_your_gender">Choose your gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="height_mistake">Please, enter your height correctly</string>
+    <string name="weight_mistake">Plese, enter your weight correctly</string>
+    <string name="age_error">Plese, enter your age correctly</string>
+    <string name="int_format_error">Incorrect format. Enter an integer.</string>
+    <string name="height_range_error">Height should be in the range from 50 to 300 cm.</string>
+    <string name="weight_range_error">Weight should be between 10 and 500 kg.</string>
+    <string name="age_range_error">Age must be between 1 and 150 years.</string>
+    <string name="format_error">Incorrect data format</string>
+    <string name="сonfirmation">Confirmation</string>
+    <string name="sure">Are you sure you want to cancel your entry?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

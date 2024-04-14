@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddInfoActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineVertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Описание актвиностей:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideLineHorizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lvlActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="Уровень актвиности\n"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideLineVertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideLineHorizontal" />
+
+    <TextView
+        android:id="@+id/lvlinf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="left"
+        android:text="Сидячий образ:\n\n\nМаленькая активность:\n\n\n\nСредняя активность:\n\n\n\nСильная активность:\n\n\n\nМаксимальная активность:"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideLineVertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvlActivity" />
+
+    <TextView
+        android:id="@+id/descActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="Описание\n"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideLineVertical"
+        app:layout_constraintTop_toTopOf="@+id/guideLineHorizontal" />
+
+    <TextView
+        android:id="@+id/descinf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="Нет работы или работа за\n столом \n\nМало физических работы\n или занятия спортом\n 1-3 раза в неделю\n\nУмеренная физическая\n работа или занятия спортом\n 3 - 5 дней в неделю\n\nСильные физическая\n нагрузка или занятия\n спортом 6 - 7 дней в неделю\n\nСильная ежедневная\n физическая нагрузка\n или спорт и \nфизическая работа"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideLineVertical"
+        app:layout_constraintTop_toBottomOf="@+id/descActivity" />
+
+    <Button
+        android:id="@+id/calculatebtm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="back"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descinf" />
+</androidx.constraintlayout.widget.ConstraintLayout>
